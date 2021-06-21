@@ -1,5 +1,59 @@
-<!-- Write an HTML code to show the following:How marquee Tags work in HTMLWorking of div Tag in HTML
+<!-- Write an HTML code to show the following -->
+<!-- How marquee Tags work in HTML
+Working of div Tag in HTML
 Embedding through iframe Tag
 Set "background-color: linen" for the page, using an inline style.
 Set "background-color: linen" for the page, using an internal style sheet.
-Add an external style sheet with the URL: "mystyle.css". -->
+Add an external style sheet with the URL: "style.css". -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <title>Assignment 2</title>
+  
+    <style>
+        /* Solution for Task #5 */
+        body {
+            background-color: aquamarine;
+        }
+
+        .container2 {
+            background-color: red;
+            color: white;
+        }
+    </style>
+  
+    <link rel="stylesheet" href="Assignment2b.css">
+  
+</head>
+
+<body>
+  
+    <h4>How marquee Tags work in HTML </h4>
+    <div class="container1" style="background-color: yellowgreen;">
+        <!-- Solution for Task #4 -->
+        <marquee>Solution for Task #1</marquee>
+        <marquee direction="right">Solution for Task #1</marquee>
+        <marquee width="50%" direction="">Solution for Task #1</marquee>
+    </div>
+
+    <h4>Working of div Tag in HTML</h4>
+    <div class="container2">
+        <P>Solution for Task #2</P>
+    </div>
+
+    <h4>Embedding through iframe Tag</h4>
+    <div class="container3">
+        <iframe src="http://127.0.0.1:5500/Assignment2.html" frameborder="0"></iframe>
+        <p>Solution for Task #3</p>
+    </div>
+
+</body>
+
+</html>
